@@ -1,9 +1,11 @@
 package pl.szalach.krzysztof.trellocardsmanager.api.model;
 
+import java.io.Serializable;
+
 /**
- * Created by kszalach on 2015-05-13.
+ * Created by kszalach on 2015-05-14.
  */
-public class Board {
+public class TrelloList implements Serializable {
     private String id;
     private String name;
 

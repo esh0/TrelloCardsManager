@@ -1,8 +1,8 @@
 package pl.szalach.krzysztof.trellocardsmanager.activities;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.text.TextUtils;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -41,7 +41,7 @@ public class LoginActivity extends ActionBarActivity implements TokenExtractorLi
                 return true;
             }
         });
-        webView.loadUrl("https://trello.com/1/authorize?response_type=token&key=" + Constants.API_KEY + "&return_url=https%3A%2F%2Ftrello.com&callback_method=postMessage&scope=read&expiration=never&name=Trello+Cards+Manager");
+        webView.loadUrl("https://trello.com/1/authorize?response_type=token&key=" + Constants.API_KEY + "&return_url=https%3A%2F%2Ftrello.com&callback_method=postMessage&scope=read,write&expiration=never&name=Trello+Cards+Manager");
     }
 
     @Override

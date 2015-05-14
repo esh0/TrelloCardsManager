@@ -5,4 +5,15 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_cards">CardsActivity</string>
     <string name="operation_failed">Operacja nieudana</string>
+    <string name="action_move">Przesuń</string>
+    <string name="action_delete">Usuń</string>
+    <string name="delete">Czy usunąć wybraną kartę?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="action_edit">Edytuj</string>
+    <string name="edit">Edytuj</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="move">Przesuń do</string>
+    <string name="add">Dodaj kartę</string>
 </resources>
